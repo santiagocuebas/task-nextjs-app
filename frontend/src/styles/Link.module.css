@@ -1,0 +1,54 @@
+.link {
+  display: grid;
+  position: relative;
+  grid-auto-rows: min-content min-content 1fr min-content;
+  flex-wrap: wrap;
+  max-width: 200px;
+  max-height: 200px;
+  padding: 4px;
+  border-radius: 8px;
+  box-shadow: 0 0 3px 1px #888888;
+  row-gap: 2px;
+}
+
+.link button {
+  display: none;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.link:hover > button {
+  display: flex;
+}
+
+.link h2 {
+  width: 100%;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  font-size: 24px;
+}
+
+.link a {
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #3682f3;
+}
+
+.link a:hover {
+  color: #863ae9;
+}
+
+.link div {
+  overflow-y: scroll;
+  scrollbar-width: none;
+  overflow-wrap: anywhere;
+  overscroll-behavior: contain;
+}
+
+.link p {
+  margin-left: auto;
+}

@@ -1,0 +1,29 @@
+.search {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  background-color: #118cbd;
+  color: #ffffff;
+}
+
+.search div {
+  display: grid;
+  grid-template-columns: 40px 1fr 40px;
+  align-items: center;
+  justify-items: center;
+  width: 50%;
+  min-width: 460px;
+  max-width: 600px;
+}
+
+.search input {
+  width: 100%;
+  padding: 6px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+}

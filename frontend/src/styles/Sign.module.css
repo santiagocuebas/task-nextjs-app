@@ -1,0 +1,98 @@
+.sign {
+  display: flex;
+  flex-wrap: wrap;
+  width: min-content;
+  margin-top: 70px;
+  padding: 20px 0;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 3px 10px #888888;
+}
+
+.sign h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 32px;
+}
+
+.sign .footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  gap: 5px;
+}
+
+.sign a {
+  font-size: 18px;
+  color: #0f6abe;
+}
+
+.sign a:hover {
+  color: #8303a3;
+}
+
+.log-input {
+  width: 400px;
+  padding: 16px;
+  border: none;
+  outline: 1px solid #aaaaaa;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.log-input:focus {
+  outline: 2px solid #1989f1;
+}
+
+.log-button {
+  width: 100%;
+  background-color: #2177c7;
+  padding: 13px;
+  border: none;
+  outline: 1px solid #2177c7;
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.log-button:hover {
+  background-color: #2187d7;
+  outline: 1px solid #2187d7;
+}
+
+.sign-input {
+  width: 360px;
+  padding: 14px;
+  border: none;
+  outline: 1px solid #aaaaaa;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.sign-input:focus {
+  outline: 2px solid #1989f1;
+}
+
+.sign-button {
+  width: min-content;
+  height: min-content;
+  margin: auto;
+  padding: 8px 32px;
+  border: none;
+  border-radius: 6px;
+  background-color: #37a063;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.sign-button:hover {
+  background-color: #37b063;
+}

@@ -1,0 +1,32 @@
+.error {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: min-content;
+  padding: 20px;
+  border: 1px solid #e6df88;
+  outline: 1px solid #e6df88;
+  border-radius: 4px;
+  background-color: #f2f8a1;
+  font-weight: 700;
+}
+
+.error div {
+  width: 100%;
+}
+
+.error ul {
+  padding-left: 20px;
+}
+
+.error button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  border: none;
+  border-radius: 50%;
+  background-color: #000000;
+  color: #f2f8a1;
+  cursor: pointer;
+}

@@ -1,0 +1,81 @@
+.absolute {
+  display: flex;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  bottom: 0;
+  background-color: #000000aa;
+  z-index: 300;
+}
+
+.user {
+  width: fit-content;
+  margin: auto;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.links {
+  display: grid;
+  position: relative;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, 200px);
+  grid-auto-rows: 200px;
+  width: 80%;
+  min-width: 460px;
+  max-width: 1120px;
+  min-height: 755px;
+  padding: 20px;
+  padding-top: 60px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px #aaaaaa;
+  gap: 20px;
+}
+
+.links .button {
+  display: flex;
+  align-self: center;
+  margin: auto;
+  padding: 25px;
+  border: none;
+  border-radius: 50%;
+  background-color: #2b4de6;
+  font-weight: 700;
+  color: #ffffff;
+  box-shadow: 0 0 10px -2px #2626ac;
+  cursor: pointer;
+}
+
+.links .button:hover {
+  background-color: #2b4df6;
+}
+
+.links .message {
+  display: flex;
+  justify-content: center;
+  align-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 5px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.links .save {
+  width: max-content;
+  height: min-content;
+  padding: 8px;
+  border: none;
+  border-radius: 12px;
+  background-color: #2b4de6;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.links .save:hover {
+  background-color: #2b4df6;
+}
